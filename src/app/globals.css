@@ -4,13 +4,19 @@
 
 
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
 }
 
 main{
   max-width: 500px;
   margin:  0 auto;
+
   background-color: #eee;
   min-height: 760px;
   box-shadow: 0 6px 20px -4px rgba(0, 0, 0, .4);
